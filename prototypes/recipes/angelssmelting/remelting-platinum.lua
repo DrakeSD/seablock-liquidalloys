@@ -27,7 +27,7 @@ data:extend(
 				icon = "__angelssmelting__/graphics/icons/molten-platinum.png",
 			},
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/remelting.png",
+				icon = "__angels-liquid-alloy-mixing__/graphics/icons/remelting.png",
 				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
 				scale = 0.32,
 				shift = {-12, -12},

@@ -6,7 +6,7 @@ data:extend(
 		name = "alloy-mixer",
 		icons = {
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
+				icon = "__angels-liquid-alloy-mixing__/graphics/icons/alloy-mixer.png",
 			},
 			{
 				icon = "__angelspetrochem__/graphics/icons/num_1.png",
@@ -26,7 +26,7 @@ data:extend(
 		name = "alloy-mixer",
 		icons = {
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
+				icon = "__angels-liquid-alloy-mixing__/graphics/icons/alloy-mixer.png",
 			},
 			{
 				icon = "__angelspetrochem__/graphics/icons/num_1.png",
@@ -62,7 +62,7 @@ data:extend(
 		animation ={
 			layers={
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					frame_count = 36,
@@ -118,7 +118,7 @@ data:extend(
 		name = "alloy-mixer-2",
 		icons = {
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
+				icon = "__angels-liquid-alloy-mixing__/graphics/icons/alloy-mixer.png",
 			},
 			{
 				icon = "__angelspetrochem__/graphics/icons/num_2.png",
@@ -138,7 +138,7 @@ data:extend(
 		name = "alloy-mixer-2",
 		icons = {
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
+				icon = "__angels-liquid-alloy-mixing__/graphics/icons/alloy-mixer.png",
 			},
 			{
 				icon = "__angelspetrochem__/graphics/icons/num_2.png",
@@ -174,7 +174,7 @@ data:extend(
 		animation ={
 			layers={
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					frame_count = 36,
@@ -229,7 +229,7 @@ data:extend(
 		name = "alloy-mixer-3",
 		icons = {
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
+				icon = "__angels-liquid-alloy-mixing__/graphics/icons/alloy-mixer.png",
 			},
 			{
 				icon = "__angelspetrochem__/graphics/icons/num_3.png",
@@ -249,7 +249,7 @@ data:extend(
 		name = "alloy-mixer-3",
 		icons = {
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
+				icon = "__angels-liquid-alloy-mixing__/graphics/icons/alloy-mixer.png",
 			},
 			{
 				icon = "__angelspetrochem__/graphics/icons/num_3.png",
@@ -285,7 +285,7 @@ data:extend(
 		animation ={
 			layers={
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					frame_count = 36,
@@ -340,7 +340,7 @@ data:extend(
 		name = "alloy-mixer-4",
 		icons = {
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
+				icon = "__angels-liquid-alloy-mixing__/graphics/icons/alloy-mixer.png",
 			},
 			{
 				icon = "__angelspetrochem__/graphics/icons/num_4.png",
@@ -360,7 +360,7 @@ data:extend(
 		name = "alloy-mixer-4",
 		icons = {
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
+				icon = "__angels-liquid-alloy-mixing__/graphics/icons/alloy-mixer.png",
 			},
 			{
 				icon = "__angelspetrochem__/graphics/icons/num_4.png",
@@ -396,7 +396,7 @@ data:extend(
 		animation ={
 			layers={
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					frame_count = 36,

@@ -1,7 +1,7 @@
 local function iconset(name,suf,tier)
 	data.raw["item"][name..suf].icons = {
 		{
-			icon = "__angelsextended-remelting__/graphics/icons/"..name.."-gfx"..tier..".png",
+			icon = "__angels-liquid-alloy-mixing__/graphics/icons/"..name.."-gfx"..tier..".png",
 		},
 		{
 			icon = "__ShinyAngelGFX__/graphics/icons/num"..tier..".png",
@@ -9,7 +9,7 @@ local function iconset(name,suf,tier)
 	}
 	data.raw["assembling-machine"][name..suf].icons = {
 		{
-			icon = "__angelsextended-remelting__/graphics/icons/"..name.."-gfx"..tier..".png",
+			icon = "__angels-liquid-alloy-mixing__/graphics/icons/"..name.."-gfx"..tier..".png",
 		},
 		{
 			icon = "__ShinyAngelGFX__/graphics/icons/num"..tier..".png",
@@ -23,7 +23,7 @@ if data.raw["assembling-machine"]["alloy-mixer"] then
 		data.raw["assembling-machine"]["alloy-mixer"].animation = {
 			layers = {
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					line_length = 6,
@@ -32,7 +32,7 @@ if data.raw["assembling-machine"]["alloy-mixer"] then
 					animation_speed = 0.5,
 				},
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer-gfx-1.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer-gfx-1.png",
 					width = 224,
 					height = 256,
 					line_length = 6,
@@ -80,7 +80,7 @@ if data.raw["assembling-machine"]["alloy-mixer"] then
 		data.raw["assembling-machine"]["alloy-mixer-2"].animation = {
 			layers = {
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					line_length = 6,
@@ -89,7 +89,7 @@ if data.raw["assembling-machine"]["alloy-mixer"] then
 					animation_speed = 0.5,
 				},
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer-gfx-2.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer-gfx-2.png",
 					width = 224,
 					height = 256,
 					line_length = 6,
@@ -137,7 +137,7 @@ if data.raw["assembling-machine"]["alloy-mixer"] then
 		data.raw["assembling-machine"]["alloy-mixer-3"].animation = {
 			layers = {
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					line_length = 6,
@@ -146,7 +146,7 @@ if data.raw["assembling-machine"]["alloy-mixer"] then
 					animation_speed = 0.5,
 				},
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer-gfx-3.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer-gfx-3.png",
 					width = 224,
 					height = 256,
 					line_length = 6,
@@ -194,7 +194,7 @@ if data.raw["assembling-machine"]["alloy-mixer"] then
 		data.raw["assembling-machine"]["alloy-mixer-4"].animation = {
 			layers = {
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					line_length = 6,
@@ -203,7 +203,7 @@ if data.raw["assembling-machine"]["alloy-mixer"] then
 					animation_speed = 0.5,
 				},
 				{
-					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer-gfx-4.png",
+					filename = "__angels-liquid-alloy-mixing__/graphics/entity/alloy-mixer/alloy-mixer-gfx-4.png",
 					width = 224,
 					height = 256,
 					line_length = 6,

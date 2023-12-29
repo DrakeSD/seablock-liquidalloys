@@ -1,10 +1,10 @@
 {
   "name": "angels-liquid-alloy-mixing",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "title": "Angel's Liquid Alloy Mixing",
   "author": "Marsonge",
   "contact": "tim.caillot@gmail.com",
-  "homepage": "https://github.com/Marsonge/angelsextended-remelting",
+  "homepage": "https://github.com/Marsonge/angels-liquid-alloy-mixing",
   "factorio_version": "1.1",
   "description": "A fix to Arangas's Alloy Mixing mod. Adds Alloy Mixer that is used to mix molten metals into alloys directly and adds the ability to remelt metal into molten liquids. Supports Bob's Mods, MadClown01's Processing and ShinyAngelGFX.",
   "dependencies": [
