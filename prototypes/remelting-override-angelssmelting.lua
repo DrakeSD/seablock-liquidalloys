@@ -5,6 +5,22 @@ OV.add_unlock("angels-solder-smelting-2", "molten-solder-alloy-mixing-2")
 OV.add_unlock("angels-solder-smelting-3", "molten-solder-alloy-mixing-3")
 
 OV.add_unlock("angels-steel-smelting-1", "molten-steel-alloy-mixing")
+OV.add_unlock("remelting-alloy-mixer-1", "molten-manganese-alloy-mixing")
+OV.add_unlock("remelting-alloy-mixer-1", "molten-bronze-alloy-mixing-1")
+OV.add_unlock("remelting-alloy-mixer-2", "molten-bronze-alloy-mixing-2")
+OV.add_unlock("remelting-alloy-mixer-3", "molten-bronze-alloy-mixing-3")
+
+OV.add_unlock("remelting-alloy-mixer-1", "molten-brass-alloy-mixing-1")
+OV.add_unlock("remelting-alloy-mixer-2", "molten-brass-alloy-mixing-2")
+OV.add_unlock("remelting-alloy-mixer-3", "molten-brass-alloy-mixing-3")
+
+OV.add_unlock("remelting-alloy-mixer-1", "molten-brass-alloy-mixing-1")
+
+OV.add_unlock("remelting-alloy-mixer-1", "molten-gunmetal-alloy-mixing-1")
+
+OV.add_unlock("remelting-alloy-mixer-1", "molten-invar-alloy-mixing-1")
+
+OV.add_unlock("remelting-alloy-mixer-1", "molten-nitinol-alloy-mixing-1")
 
 if settings.startup["remelting-smooth-integration"].value then
 	--ALUMINIUM
