@@ -23,5 +23,11 @@ data:extend(
 		group = "angels-casting",
 		order = "ba",
 	},
+	{
+		type = "item-subgroup",
+		name = "aragas-manganese-alloy-mixing",
+		group = "angels-casting",
+		order = "ca",
+	},
 }
 )
