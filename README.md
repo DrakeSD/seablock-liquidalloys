@@ -1,4 +1,4 @@
-# Angel's Extended - Remelting
+# Angel's Liquid Alloy Mixing
 ## Little Molten Metal overhaul.
 It's now viable to set up your logistic network using only pipes with molten metals instead of plates. Alloy Mixer can create alloys using molten metals instead of ingots, the rest can be handled by Casting Machine and Strand Casting Machine.
 And if you have an excess of metal plates, just remelt them back!

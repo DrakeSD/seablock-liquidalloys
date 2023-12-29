@@ -1,3 +1,9 @@
+Version: 1.1
+Date: 29.12.2023
+  Bugfixes:
+    - Fixed unlock of molten alloy mixing recipes
+  Features:
+    - Added Manganese molten iron production
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.10
 Date: 29.09.2019
