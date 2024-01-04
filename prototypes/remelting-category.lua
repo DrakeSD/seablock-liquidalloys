@@ -29,5 +29,23 @@ data:extend(
 		group = "angels-casting",
 		order = "ca",
 	},
+	{
+		type = "item-subgroup",
+		name = "docteur-iron-alloy-mixing-2",
+		group = "angels-casting",
+		order = "cb",
+	},
+	{
+		type = "item-subgroup",
+		name = "docteur-iron-alloy-mixing-3",
+		group = "angels-casting",
+		order = "cc",
+	},
+	{
+		type = "item-subgroup",
+		name = "docteur-iron-alloy-mixing-4",
+		group = "angels-casting",
+		order = "cd",
+	},
 }
 )

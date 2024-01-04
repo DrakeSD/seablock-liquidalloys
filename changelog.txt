@@ -1,3 +1,11 @@
+Version: 1.4
+Date: 04.01.2023
+  Bugfixes:
+    - Fixed graphics of the entity being "jittery"
+    - Fixed broken unlocks for some researchs
+  Features:
+    - Added Silicon, CoNi and CrNi molten iron production
+---------------------------------------------------------------------------------------------------
 Version: 1.1
 Date: 29.12.2023
   Bugfixes:
