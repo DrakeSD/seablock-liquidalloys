@@ -1,4 +1,9 @@
-Version: 1.4
+Version: 1.1.5
+Date: 04.01.2023
+  Bugfixes:
+    - Fix subcategories being split when they shouldn't have been
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
 Date: 04.01.2023
   Bugfixes:
     - Fixed graphics of the entity being "jittery"

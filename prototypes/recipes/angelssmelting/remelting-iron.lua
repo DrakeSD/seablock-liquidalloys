@@ -41,7 +41,7 @@ data:extend(
 		type = "recipe",
 		name = "molten-manganese-alloy-mixing",
 		category = "molten-alloy-mixing",
-		subgroup = "aragas-manganese-alloy-mixing",
+		subgroup = "docteur-iron-alloy-mixing",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -68,7 +68,7 @@ data:extend(
 		type = "recipe",
 		name = "molten-silicon-iron-alloy-mixing",
 		category = "molten-alloy-mixing",
-		subgroup = "docteur-iron-alloy-mixing-2",
+		subgroup = "docteur-iron-alloy-mixing",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -95,7 +95,7 @@ data:extend(
 		type = "recipe",
 		name = "molten-coni-iron-alloy-mixing",
 		category = "molten-alloy-mixing",
-		subgroup = "docteur-iron-alloy-mixing-3",
+		subgroup = "docteur-iron-alloy-mixing",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -123,7 +123,7 @@ data:extend(
 		type = "recipe",
 		name = "molten-crni-iron-alloy-mixing",
 		category = "molten-alloy-mixing",
-		subgroup = "docteur-iron-alloy-mixing-4",
+		subgroup = "docteur-iron-alloy-mixing",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={

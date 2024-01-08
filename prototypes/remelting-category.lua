@@ -31,21 +31,9 @@ data:extend(
 	},
 	{
 		type = "item-subgroup",
-		name = "docteur-iron-alloy-mixing-2",
+		name = "docteur-iron-alloy-mixing",
 		group = "angels-casting",
 		order = "cb",
-	},
-	{
-		type = "item-subgroup",
-		name = "docteur-iron-alloy-mixing-3",
-		group = "angels-casting",
-		order = "cc",
-	},
-	{
-		type = "item-subgroup",
-		name = "docteur-iron-alloy-mixing-4",
-		group = "angels-casting",
-		order = "cd",
 	},
 }
 )
