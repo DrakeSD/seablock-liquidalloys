@@ -64,5 +64,57 @@ data:extend(
 		icon_size = 32,
 		order = "aa",
 	},
+		{
+		type = "recipe",
+		name = "molten-steel-silicon-alloy-mixing",
+		category = "molten-alloy-mixing",
+		subgroup = "aragas-steel-alloy-mixing",
+		enabled = "false",
+		energy_required = 4,
+		ingredients ={
+			{type="fluid", name="liquid-molten-steel", amount=120},
+			{type="fluid", name="liquid-molten-silicon", amount=120},
+		},
+		results={{type="fluid", name="liquid-molten-steel", amount=240}},
+		icons = {
+			{
+				icon = "__angelssmelting__/graphics/icons/molten-steel.png",
+			},
+			{
+				icon = "__angels-liquid-alloy-mixing__/graphics/icons/remelting.png",
+				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+				scale = 0.32,
+				shift = {-12, -12},
+			}
+		},
+		icon_size = 32,
+		order = "ab",
+	},
+	{
+		type = "recipe",
+		name = "molten-steel-manganese-alloy-mixing",
+		category = "molten-alloy-mixing",
+		subgroup = "aragas-steel-alloy-mixing",
+		enabled = "false",
+		energy_required = 4,
+		ingredients ={
+			{type="fluid", name="liquid-molten-steel", amount=120},
+			{type="fluid", name="liquid-molten-manganese", amount=120},
+		},
+		results={{type="fluid", name="liquid-molten-steel", amount=240}},
+		icons = {
+			{
+				icon = "__angelssmelting__/graphics/icons/molten-steel.png",
+			},
+			{
+				icon = "__angels-liquid-alloy-mixing__/graphics/icons/remelting.png",
+				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+				scale = 0.32,
+				shift = {-12, -12},
+			}
+		},
+		icon_size = 32,
+		order = "ac",
+	},
 }
 )
