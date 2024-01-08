@@ -57,6 +57,9 @@ if settings.startup["remelting-smooth-integration"].value then
 	OV.add_unlock("angels-solder-casting-2", "molten-solder-remelting")
 	--STEEL
 	OV.add_unlock("angels-steel-smelting-2", "molten-steel-remelting")
+	OV.add_unlock("angels-steel-smelting-2", "molten-steel-manganese-alloy-mixing")
+	OV.add_unlock("angels-steel-smelting-2", "molten-steel-silicon-alloy-mixing")
+
 	--TIN
 	OV.add_unlock("angels-tin-casting-2", "molten-tin-remelting")
 	--TITANIUM
