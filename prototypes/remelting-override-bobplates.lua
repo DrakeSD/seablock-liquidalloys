@@ -8,7 +8,8 @@ OV.add_unlock("angels-brass-smelting-1", "molten-brass-alloy-mixing-1")
 OV.add_unlock("angels-brass-smelting-2", "molten-brass-alloy-mixing-2")
 OV.add_unlock("angels-brass-smelting-3", "molten-brass-alloy-mixing-3")
 
-if data.raw["fluid"]["liquid-molten-gunmetal"] then
+if mods["SeaBlock"] then
+else
 	OV.add_unlock("angels-gunmetal-smelting-1", "molten-gunmetal-alloy-mixing-1")
 end
 
@@ -25,8 +26,9 @@ if settings.startup["remelting-smooth-integration"].value then
 	OV.add_unlock("angels-brass-smelting-2", "molten-brass-remelting")
 
 	--GUNMETAL
-	if data.raw["fluid"]["liquid-molten-gunmetal"] then
-		OV.add_unlock("angels-gunmetal-smelting-1", "molten-gunmetal-remelting")
+	if mods["SeaBlock"] then
+	else
+			OV.add_unlock("angels-gunmetal-smelting-1", "molten-gunmetal-remelting")
 	end
 
 	--INVAR
@@ -44,8 +46,9 @@ else
 	OV.add_unlock("remelting-tier-1", "molten-brass-remelting")
 
 	--GUNMETAL
-	if data.raw["fluid"]["liquid-molten-gunmetal"] then
-		OV.add_unlock("remelting-tier-1", "molten-gunmetal-remelting")
+	if mods["SeaBlock"] then
+	else
+			OV.add_unlock("remelting-tier-1", "molten-gunmetal-remelting")
 	end
 
 	--INVAR

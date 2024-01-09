@@ -16,7 +16,8 @@ OV.add_unlock("remelting-alloy-mixer-3", "molten-brass-alloy-mixing-3")
 
 OV.add_unlock("remelting-alloy-mixer-1", "molten-brass-alloy-mixing-1")
 
-if data.raw["fluid"]["liquid-molten-gunmetal"] then
+if mods["SeaBlock"] then
+else
 	OV.add_unlock("remelting-alloy-mixer-1", "molten-gunmetal-alloy-mixing-1")
 end
 

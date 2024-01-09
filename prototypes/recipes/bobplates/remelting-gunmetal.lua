@@ -1,6 +1,7 @@
 local intermediatemulti = angelsmods.marathon.intermediatemulti
 
-if data.raw["fluid"]["liquid-molten-gunmetal"] then
+if mods["SeaBlock"] then
+else
 	data:extend(
 	{
 		-- Gunmetal Plate
@@ -70,4 +71,4 @@ if data.raw["fluid"]["liquid-molten-gunmetal"] then
 		},
 	}
 	)
-	end
+end
