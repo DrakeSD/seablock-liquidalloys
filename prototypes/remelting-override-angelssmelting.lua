@@ -16,7 +16,9 @@ OV.add_unlock("remelting-alloy-mixer-3", "molten-brass-alloy-mixing-3")
 
 OV.add_unlock("remelting-alloy-mixer-1", "molten-brass-alloy-mixing-1")
 
-OV.add_unlock("remelting-alloy-mixer-1", "molten-gunmetal-alloy-mixing-1")
+if data.raw["fluid"]["liquid-molten-gunmetal"] then
+	OV.add_unlock("remelting-alloy-mixer-1", "molten-gunmetal-alloy-mixing-1")
+end
 
 OV.add_unlock("remelting-alloy-mixer-1", "molten-invar-alloy-mixing-1")
 
