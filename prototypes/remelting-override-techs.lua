@@ -45,5 +45,13 @@ OV.add_unlock("angels-titanium-casting-2", "molten-titanium-mixing-2")
 OV.add_unlock("angels-titanium-casting-2", "molten-titanium-mixing-3")
 OV.add_unlock("angels-titanium-casting-3", "molten-titanium-mixing-4")
 
+--MIXERS
+OV.add_unlock("angels-metallurgy-1", "alloy-mixer")
+OV.add_unlock("angels-metallurgy-2", "alloy-mixer-2")
+OV.add_unlock("angels-metallurgy-3", "alloy-mixer-3")
+OV.add_unlock("angels-metallurgy-4", "alloy-mixer-4")
+
+
+
 --DYNAMIC OVERRIDES
 require("prototypes.recipes.remelting-entity-angels")

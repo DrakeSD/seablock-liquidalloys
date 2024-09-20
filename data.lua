@@ -12,8 +12,6 @@ require("prototypes.buildings.alloy-mixer")
 
 require("prototypes.recipes.remelting-entity")
 
-require("prototypes.technology.remelting-technology")
-
 require("prototypes.recipes.remelting-iron")
 require("prototypes.recipes.remelting-solder")
 require("prototypes.recipes.remelting-steel")

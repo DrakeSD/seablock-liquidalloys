@@ -1,4 +1,8 @@
-
+Version: 0.1.1
+Date: 09.19.2024
+  Features:
+    - Attached the mixer recipies directly to Angel's metallurgy techs for further streamlining
+---------------------------------------------------------------------------------------------------
 Fork Version: 0.1.0
 Date: 09.19.2024
   Features:
