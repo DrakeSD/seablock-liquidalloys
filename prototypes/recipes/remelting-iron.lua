@@ -2,40 +2,6 @@ local intermediatemulti = angelsmods.marathon.intermediatemulti
 
 data:extend(
 {
-	-- Iron Plate
-	{
-		type = "recipe",
-		name = "molten-iron-remelting",
-		category = "induction-smelting",
-		subgroup = "angels-iron-casting",
-		normal =
-		{
-			enabled = "false",
-			energy_required = 6,
-			ingredients ={{type="item", name="angels-plate-iron", amount=4}},
-			results={{type="fluid",name="liquid-molten-iron", amount=35}},
-		},
-		expensive =
-		{
-			enabled = "false",
-			energy_required = 6,
-			ingredients ={{type="item", name="angels-plate-iron", amount=5 * intermediatemulti}},
-			results={{type="fluid",name="liquid-molten-iron", amount=40}},
-		},
-		icons = {
-			{
-				icon = "__angelssmelting__/graphics/icons/molten-iron.png",
-			},
-			{
-				icon = "__angels-liquid-alloy-mixing__/graphics/icons/remelting.png",
-				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
-				scale = 0.32,
-				shift = {-12, -12},
-			}
-		},
-		icon_size = 32,
-		order = "a]",
-	},
 	-- Molten Iron from Manganese
 	{
 		type = "recipe",
@@ -49,25 +15,19 @@ data:extend(
 			{type="fluid", name="liquid-molten-manganese", amount=120},
 		},
 		results={{type="fluid", name="liquid-molten-iron", amount=240}},
-		icons = {
+		icons = angelsmods.functions.add_number_icon_layer({
 			{
 				icon = "__angelssmelting__/graphics/icons/molten-iron.png",
+				icon_size = 32,
 			},
-			{
-				icon = "__angels-liquid-alloy-mixing__/graphics/icons/remelting.png",
-				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
-				scale = 0.32,
-				shift = {-12, -12},
-			}
-		},
-		icon_size = 32,
+		}, 1, angelsmods.smelting.number_tint),
 		order = "aa",
 	},
 	-- Molten Iron from Silicon
 	{
 		type = "recipe",
 		name = "molten-silicon-iron-alloy-mixing",
-		category = "molten-alloy-mixing",
+		category = "molten-alloy-mixing-2",
 		subgroup = "docteur-iron-alloy-mixing",
 		enabled = "false",
 		energy_required = 4,
@@ -76,25 +36,19 @@ data:extend(
 			{type="fluid", name="liquid-molten-silicon", amount=120},
 		},
 		results={{type="fluid", name="liquid-molten-iron", amount=240}},
-		icons = {
+		icons = angelsmods.functions.add_number_icon_layer({
 			{
 				icon = "__angelssmelting__/graphics/icons/molten-iron.png",
+				icon_size = 32,
 			},
-			{
-				icon = "__angels-liquid-alloy-mixing__/graphics/icons/remelting.png",
-				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
-				scale = 0.32,
-				shift = {-12, -12},
-			}
-		},
-		icon_size = 32,
-		order = "aa",
+		}, 2, angelsmods.smelting.number_tint),
+		order = "ab",
 	},
 	-- Molten Iron from Cobalt and Nickel
 	{
 		type = "recipe",
 		name = "molten-coni-iron-alloy-mixing",
-		category = "molten-alloy-mixing",
+		category = "molten-alloy-mixing-3",
 		subgroup = "docteur-iron-alloy-mixing",
 		enabled = "false",
 		energy_required = 4,
@@ -104,25 +58,19 @@ data:extend(
 			{type="fluid", name="liquid-molten-nickel", amount=120},
 		},
 		results={{type="fluid", name="liquid-molten-iron", amount=360}},
-		icons = {
+		icons = angelsmods.functions.add_number_icon_layer({
 			{
 				icon = "__angelssmelting__/graphics/icons/molten-iron.png",
+				icon_size = 32,
 			},
-			{
-				icon = "__angels-liquid-alloy-mixing__/graphics/icons/remelting.png",
-				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
-				scale = 0.32,
-				shift = {-12, -12},
-			}
-		},
-		icon_size = 32,
-		order = "aa",
+		}, 3, angelsmods.smelting.number_tint),
+		order = "ac",
 	},
-	-- Molten Iron from Silicon
+	-- Molten Iron from Chrome and Nickel
 	{
 		type = "recipe",
 		name = "molten-crni-iron-alloy-mixing",
-		category = "molten-alloy-mixing",
+		category = "molten-alloy-mixing-4",
 		subgroup = "docteur-iron-alloy-mixing",
 		enabled = "false",
 		energy_required = 4,
@@ -132,19 +80,13 @@ data:extend(
 			{type="fluid", name="liquid-molten-nickel", amount=120},
 		},
 		results={{type="fluid", name="liquid-molten-iron", amount=360}},
-		icons = {
+		icons = angelsmods.functions.add_number_icon_layer({
 			{
 				icon = "__angelssmelting__/graphics/icons/molten-iron.png",
+				icon_size = 32,
 			},
-			{
-				icon = "__angels-liquid-alloy-mixing__/graphics/icons/remelting.png",
-				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
-				scale = 0.32,
-				shift = {-12, -12},
-			}
-		},
-		icon_size = 32,
-		order = "aa",
+		}, 4, angelsmods.smelting.number_tint),
+		order = "ad",
 	},
 }
 )
