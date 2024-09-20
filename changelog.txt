@@ -1,3 +1,16 @@
+
+Fork Version: 0.1.0
+Date: 09.19.2024
+  Features:
+    - Added logic to include molten metal recipes if they are missing.
+    - Added a bunch of missing alloy recipies
+    - Tiered the recipies to you need higher tier mixers for higher tier recipies
+    - Attached all alloy recipies to appropriate techs
+    - Moved the fluid inputs/outputs to match model
+---------------------------------------------------------------------------------------------------
+
+
+
 Version: 1.1.7
 Date: 09.01.2023
   Bugfixes:
