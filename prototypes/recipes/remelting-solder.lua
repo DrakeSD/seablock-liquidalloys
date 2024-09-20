@@ -2,7 +2,7 @@ local intermediatemulti = angelsmods.marathon.intermediatemulti
 
 data:extend(
 {
-	-- Molten Solder
+	-- Molten Solder from Tin and Lead
 	{
 		type = "recipe",
 		name = "molten-solder-alloy-mixing-1",
@@ -23,6 +23,7 @@ data:extend(
 		}, 1, angelsmods.smelting.number_tint),
 		order = "aa",
 	},
+	-- Molten Solder from Tin and Zinc
 	{
 		type = "recipe",
 		name = "molten-solder-alloy-mixing-2",
@@ -43,6 +44,7 @@ data:extend(
 		}, 2, angelsmods.smelting.number_tint),
 		order = "ab",
 	},
+	-- Molten Solder from Tin, COpper, and Silver
 	{
 		type = "recipe",
 		name = "molten-solder-alloy-mixing-3",

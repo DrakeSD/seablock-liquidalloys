@@ -1,5 +1,5 @@
 local OV = angelsmods.functions.OV
-
+--Attach all the recipies to the same techs as the normal alloys
 --SOLDER
 OV.add_unlock("angels-solder-smelting-1", "molten-solder-alloy-mixing-1")
 OV.add_unlock("angels-solder-smelting-2", "molten-solder-alloy-mixing-2")

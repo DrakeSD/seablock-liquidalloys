@@ -23,6 +23,7 @@ data:extend(
 		}, 1, angelsmods.smelting.number_tint),
 		order = "aa",
 	},
+	-- Molten Brass from Tin
 	{
 		type = "recipe",
 		name = "molten-brass-alloy-mixing-2",
@@ -44,6 +45,7 @@ data:extend(
 		}, 2, angelsmods.smelting.number_tint),
 		order = "ab",
 	},
+	-- Molten Brass from Lead
 	{
 		type = "recipe",
 		name = "molten-brass-alloy-mixing-3",

@@ -23,7 +23,8 @@ data:extend(
 		}, 1, angelsmods.smelting.number_tint),
 		order = "aa",
 	},
-		{
+	-- Molten Steel from Silicon
+	{
 		type = "recipe",
 		name = "molten-steel-silicon-alloy-mixing",
 		category = "molten-alloy-mixing-2",
@@ -43,6 +44,7 @@ data:extend(
 		}, 2, angelsmods.smelting.number_tint),
 		order = "ab",
 	},
+	-- Molten Steel from Manganese
 	{
 		type = "recipe",
 		name = "molten-steel-manganese-alloy-mixing",
@@ -63,6 +65,7 @@ data:extend(
 		}, 3, angelsmods.smelting.number_tint),
 		order = "ac",
 	},
+	-- Molten Steel from Cobalt and Nickel
 	{
 		type = "recipe",
 		name = "molten-coni-steel-alloy-mixing",

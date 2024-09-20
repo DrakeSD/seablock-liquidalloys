@@ -1,5 +1,6 @@
 data:extend(
 {
+	--Tier Catagories
 	{
 		type = "recipe-category",
 		name = "molten-alloy-mixing",
@@ -16,12 +17,12 @@ data:extend(
 		type = "recipe-category",
 		name = "molten-alloy-mixing-4",
 	},
+	--Subgroups
 	{
 		type = "item-subgroup",
 		name = "aragas-molten-alloy-mixer",
 		group = "angels-casting",
 		order = "zem",
-
 	},
 	{
 		type = "item-subgroup",

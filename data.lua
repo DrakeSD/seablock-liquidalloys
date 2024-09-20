@@ -29,6 +29,7 @@ if mods["ShinyAngelGFX"] and iconset then -- Check if iconset exist as it could 
     require("prototypes.remelting-override-shinygfx")
 end
 
+--Set these to true to so Angels will enable the appropriate smelting recipes, keep track of them so we can disable the unused parts later
 if not aragasmods.switchs then aragasmods.switchs = {} end
 
 if not angelsmods.trigger.smelting_products["nickel"].plate then

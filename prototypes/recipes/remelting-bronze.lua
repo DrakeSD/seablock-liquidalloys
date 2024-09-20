@@ -23,6 +23,7 @@ data:extend(
 		}, 1, angelsmods.smelting.number_tint),
 		order = "aa",
 	},
+	-- Molten Bronze from Nickel
 	{
 		type = "recipe",
 		name = "molten-bronze-alloy-mixing-2",
@@ -44,6 +45,7 @@ data:extend(
 		}, 2, angelsmods.smelting.number_tint),
 		order = "ab",
 	},
+	-- Molten Bronze from Zinc
 	{
 		type = "recipe",
 		name = "molten-bronze-alloy-mixing-3",
