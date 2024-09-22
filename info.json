@@ -1,15 +1,15 @@
 {
-  "name": "seablock-liquidalloys",
-  "version": "0.2.0",
-  "title": "Seablock Liquid Alloy Mixing",
+  "name": "angelsextended-moltenalloys",
+  "version": "0.2.1",
+  "title": "Angel's Extended: Molten Alloy Mixing",
   "author": "DrakeSD",
   "contact": "gelinator@gmail.com",
   "homepage": "https://github.com/DrakeSD/seablock-liquidalloys",
   "factorio_version": "1.1",
   "description": "A big rewrite to Marsonge's fix to Arangas's Alloy Mixing mod. Adds an Alloy Mixer that is used to mix molten metals into alloys directly and now includes a bunch of logic to enable ingot melting of metals that don't have plates enabled. No longer includes remelting.",
   "dependencies": [
-    "angelssmelting >= 0.4.0",
-    "? bobplates >= 0.15.0",
+    "angelssmelting >= 0.6.0",
+    "? bobplates >= 1.1.0",
     "! Better_Strand_Casting"
   ],
   "factride_metadata": {
