@@ -21,7 +21,7 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 1, angelsmods.smelting.number_tint),
-		order = "a[solder]-a[angels-solder-mixture]-ab",
+		order = "b[liquid-molten-solder]--ab",
 	},
 	-- Molten Solder from Tin and Zinc
 	{
@@ -42,7 +42,7 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 2, angelsmods.smelting.number_tint),
-		order = "a[solder]-a[angels-solder-mixture]-bb",
+		order = "b[liquid-molten-solder]--bb",
 	},
 	-- Molten Solder from Tin, COpper, and Silver
 	{
@@ -64,7 +64,7 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 3, angelsmods.smelting.number_tint),
-		order = "aa[solder]-a[angels-solder-mixture]-cb",
+		order = "ab[liquid-molten-solder]--cb",
 	},
 }
 )

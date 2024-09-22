@@ -6,7 +6,7 @@ data:extend(
 		name = "alloy-mixer",
 		icons = angelsmods.functions.add_number_icon_layer({
 			{
-				icon = "__seablock-liquidalloys__/graphics/icons/alloy-mixer.png",
+				icon = "__angelsextended-moltenalloys__/graphics/icons/alloy-mixer.png",
 				icon_size = 32,
 			},
 		  }, 1, angelsmods.smelting.number_tint),
@@ -20,7 +20,7 @@ data:extend(
 		name = "alloy-mixer",
 		icons = angelsmods.functions.add_number_icon_layer({
 			{
-				icon = "__seablock-liquidalloys__/graphics/icons/alloy-mixer.png",
+				icon = "__angelsextended-moltenalloys__/graphics/icons/alloy-mixer.png",
 				icon_size = 32,
 			},
 		  }, 1, angelsmods.smelting.number_tint),
@@ -51,7 +51,7 @@ data:extend(
 		animation ={
 			layers={
 				{
-					filename = "__seablock-liquidalloys__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angelsextended-moltenalloys__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					frame_count = 36,
@@ -107,7 +107,7 @@ data:extend(
 		name = "alloy-mixer-2",
 		icons = angelsmods.functions.add_number_icon_layer({
 			{
-				icon = "__seablock-liquidalloys__/graphics/icons/alloy-mixer.png",
+				icon = "__angelsextended-moltenalloys__/graphics/icons/alloy-mixer.png",
 				icon_size = 32,
 			},
 		  }, 2, angelsmods.smelting.number_tint),
@@ -121,7 +121,7 @@ data:extend(
 		name = "alloy-mixer-2",
 		icons = angelsmods.functions.add_number_icon_layer({
 			{
-				icon = "__seablock-liquidalloys__/graphics/icons/alloy-mixer.png",
+				icon = "__angelsextended-moltenalloys__/graphics/icons/alloy-mixer.png",
 				icon_size = 32,
 			},
 		  }, 2, angelsmods.smelting.number_tint),
@@ -152,7 +152,7 @@ data:extend(
 		animation ={
 			layers={
 				{
-					filename = "__seablock-liquidalloys__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angelsextended-moltenalloys__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					frame_count = 36,
@@ -207,7 +207,7 @@ data:extend(
 		name = "alloy-mixer-3",
 		icons = angelsmods.functions.add_number_icon_layer({
 			{
-				icon = "__seablock-liquidalloys__/graphics/icons/alloy-mixer.png",
+				icon = "__angelsextended-moltenalloys__/graphics/icons/alloy-mixer.png",
 				icon_size = 32,
 			},
 		  }, 3, angelsmods.smelting.number_tint),
@@ -221,7 +221,7 @@ data:extend(
 		name = "alloy-mixer-3",
 		icons = angelsmods.functions.add_number_icon_layer({
 			{
-				icon = "__seablock-liquidalloys__/graphics/icons/alloy-mixer.png",
+				icon = "__angelsextended-moltenalloys__/graphics/icons/alloy-mixer.png",
 				icon_size = 32,
 			},
 		  }, 3, angelsmods.smelting.number_tint),
@@ -252,7 +252,7 @@ data:extend(
 		animation ={
 			layers={
 				{
-					filename = "__seablock-liquidalloys__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angelsextended-moltenalloys__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					frame_count = 36,
@@ -307,7 +307,7 @@ data:extend(
 		name = "alloy-mixer-4",
 		icons = angelsmods.functions.add_number_icon_layer({
 			{
-				icon = "__seablock-liquidalloys__/graphics/icons/alloy-mixer.png",
+				icon = "__angelsextended-moltenalloys__/graphics/icons/alloy-mixer.png",
 				icon_size = 32,
 			},
 		  }, 4, angelsmods.smelting.number_tint),
@@ -321,7 +321,7 @@ data:extend(
 		name = "alloy-mixer-4",
 		icons = angelsmods.functions.add_number_icon_layer({
 			{
-				icon = "__seablock-liquidalloys__/graphics/icons/alloy-mixer.png",
+				icon = "__angelsextended-moltenalloys__/graphics/icons/alloy-mixer.png",
 				icon_size = 32,
 			},
 		  }, 4, angelsmods.smelting.number_tint),
@@ -351,7 +351,7 @@ data:extend(
 		animation ={
 			layers={
 				{
-					filename = "__seablock-liquidalloys__/graphics/entity/alloy-mixer/alloy-mixer.png",
+					filename = "__angelsextended-moltenalloys__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
 					height = 256,
 					frame_count = 36,
