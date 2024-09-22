@@ -7,7 +7,7 @@ data:extend(
 		type = "recipe",
 		name = "molten-aluminium-mixing-2",
 		category = "molten-alloy-mixing-3",
-		subgroup = "aragas-aluminium-alloy-mixing",
+		subgroup = "angels-aluminium-casting",
 		energy_required = 4,
 		enabled = false,
 		ingredients = {
@@ -23,14 +23,14 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 2, angelsmods.smelting.number_tint),
-		order = "aa",
+		order = "i[liquid-molten-aluminium]-bb",
 	},
 	-- Molten Aluminium from Silicon and Copper
 	{
 		type = "recipe",
 		name = "molten-aluminium-mixing-3",
 		category = "molten-alloy-mixing-4",
-		subgroup = "aragas-aluminium-alloy-mixing",
+		subgroup = "angels-aluminium-casting",
 		energy_required = 4,
 		enabled = false,
 		ingredients = {
@@ -47,7 +47,7 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 3, angelsmods.smelting.number_tint),
-		order = "ab",
+		order = "i[liquid-molten-aluminium]-cb",
 	},
 }
 )

@@ -7,7 +7,7 @@ data:extend(
 		type = "recipe",
 		name = "molten-nitinol-alloy-mixing-1",
 		category = "molten-alloy-mixing-4",
-		subgroup = "aragas-nitinol-alloy-mixing",
+		subgroup = "angels-alloys-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -21,7 +21,7 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 1, angelsmods.smelting.number_tint),
-		order = "aa",
+		order = "f[nitinol]-a[liquid-molten-nitinol]-ab",
 	},
 }
 )

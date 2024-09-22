@@ -7,7 +7,7 @@ data:extend(
 		type = "recipe",
 		name = "molten-solder-alloy-mixing-1",
 		category = "molten-alloy-mixing",
-		subgroup = "aragas-solder-alloy-mixing",
+		subgroup = "angels-solder-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -21,14 +21,14 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 1, angelsmods.smelting.number_tint),
-		order = "aa",
+		order = "a[solder]-a[angels-solder-mixture]-ab",
 	},
 	-- Molten Solder from Tin and Zinc
 	{
 		type = "recipe",
 		name = "molten-solder-alloy-mixing-2",
 		category = "molten-alloy-mixing-2",
-		subgroup = "aragas-solder-alloy-mixing",
+		subgroup = "angels-solder-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -42,14 +42,14 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 2, angelsmods.smelting.number_tint),
-		order = "ab",
+		order = "a[solder]-a[angels-solder-mixture]-bb",
 	},
 	-- Molten Solder from Tin, COpper, and Silver
 	{
 		type = "recipe",
 		name = "molten-solder-alloy-mixing-3",
 		category = "molten-alloy-mixing-3",
-		subgroup = "aragas-solder-alloy-mixing",
+		subgroup = "angels-solder-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -64,7 +64,7 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 3, angelsmods.smelting.number_tint),
-		order = "ac",
+		order = "aa[solder]-a[angels-solder-mixture]-cb",
 	},
 }
 )

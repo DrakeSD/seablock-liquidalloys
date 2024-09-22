@@ -7,7 +7,7 @@ data:extend(
 		type = "recipe",
 		name = "molten-bronze-alloy-mixing-1",
 		category = "molten-alloy-mixing",
-		subgroup = "aragas-bronze-alloy-mixing",
+		subgroup = "angels-alloys-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -21,14 +21,14 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 1, angelsmods.smelting.number_tint),
-		order = "aa",
+		order = "a[bronze]-a[liquid-molten-bronze]-ab",
 	},
 	-- Molten Bronze from Nickel
 	{
 		type = "recipe",
 		name = "molten-bronze-alloy-mixing-2",
 		category = "molten-alloy-mixing-2",
-		subgroup = "aragas-bronze-alloy-mixing",
+		subgroup = "angels-alloys-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -43,14 +43,14 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 2, angelsmods.smelting.number_tint),
-		order = "ab",
+		order = "a[bronze]-a[liquid-molten-bronze]-bb",
 	},
 	-- Molten Bronze from Zinc
 	{
 		type = "recipe",
 		name = "molten-bronze-alloy-mixing-3",
 		category = "molten-alloy-mixing-3",
-		subgroup = "aragas-bronze-alloy-mixing",
+		subgroup = "angels-alloys-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -65,7 +65,7 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 3, angelsmods.smelting.number_tint),
-		order = "ac",
+		order = "a[bronze]-a[liquid-molten-bronze]-cb",
 	},
 }
 )

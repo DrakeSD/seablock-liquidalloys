@@ -16,6 +16,7 @@ OV.add_unlock("angels-steel-smelting-1", "molten-steel-alloy-mixing")
 OV.add_unlock("angels-steel-smelting-2", "molten-steel-silicon-alloy-mixing")
 OV.add_unlock("angels-steel-smelting-2", "molten-steel-manganese-alloy-mixing")
 OV.add_unlock("angels-steel-smelting-3", "molten-coni-steel-alloy-mixing")
+OV.add_unlock("angels-steel-smelting-4", "molten-chtu-steel-alloy-mixing")
 
 --BRONZE
 OV.add_unlock("angels-bronze-smelting-1", "molten-bronze-alloy-mixing-1")
@@ -54,4 +55,4 @@ OV.add_unlock("angels-metallurgy-4", "alloy-mixer-4")
 
 
 --DYNAMIC OVERRIDES
-require("prototypes.recipes.remelting-entity-angels")
+require("prototypes.recipes.entity-angels")

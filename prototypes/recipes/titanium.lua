@@ -7,7 +7,7 @@ data:extend(
 		type = "recipe",
 		name = "molten-titanium-mixing-2",
 		category = "molten-alloy-mixing-4",
-		subgroup = "aragas-titanium-alloy-mixing",
+		subgroup = "angels-titanium-casting",
 		energy_required = 4,
 		enabled = false,
 		ingredients = {
@@ -23,14 +23,14 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 2, angelsmods.smelting.number_tint),
-		order = "aa",
+		order = "h[liquid-molten-titanium]-ab",
 	},
 	-- Molten Titanium from Nickel
 	{
 		type = "recipe",
 		name = "molten-titanium-mixing-3",
 		category = "molten-alloy-mixing-4",
-		subgroup = "aragas-titanium-alloy-mixing",
+		subgroup = "angels-titanium-casting",
 		energy_required = 4,
 		enabled = false,
 		ingredients = {
@@ -46,14 +46,14 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 3, angelsmods.smelting.number_tint),
-		order = "ab",
+		order = "h[liquid-molten-titanium]-bb",
 	},
 	-- Molten Titanium from Aluminium and Tin
 	{
 		type = "recipe",
 		name = "molten-titanium-mixing-4",
 		category = "molten-alloy-mixing-4",
-		subgroup = "aragas-titanium-alloy-mixing",
+		subgroup = "angels-titanium-casting",
 		energy_required = 4,
 		enabled = false,
 		ingredients = {
@@ -70,7 +70,7 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 4, angelsmods.smelting.number_tint),
-		order = "ac",
+		order = "h[liquid-molten-titanium]-cb",
 	},
 }
 )

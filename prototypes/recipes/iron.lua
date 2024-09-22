@@ -7,7 +7,7 @@ data:extend(
 		type = "recipe",
 		name = "molten-manganese-alloy-mixing",
 		category = "molten-alloy-mixing",
-		subgroup = "docteur-iron-alloy-mixing",
+		subgroup = "angels-iron-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -20,15 +20,15 @@ data:extend(
 				icon = "__angelssmelting__/graphics/icons/molten-iron.png",
 				icon_size = 32,
 			},
-		}, 1, angelsmods.smelting.number_tint),
-		order = "aa",
+		}, 2, angelsmods.smelting.number_tint),
+		order = "i[liquid-molten-iron]-bb",
 	},
 	-- Molten Iron from Silicon
 	{
 		type = "recipe",
 		name = "molten-silicon-iron-alloy-mixing",
 		category = "molten-alloy-mixing-2",
-		subgroup = "docteur-iron-alloy-mixing",
+		subgroup = "angels-iron-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -41,15 +41,15 @@ data:extend(
 				icon = "__angelssmelting__/graphics/icons/molten-iron.png",
 				icon_size = 32,
 			},
-		}, 2, angelsmods.smelting.number_tint),
-		order = "ab",
+		}, 3, angelsmods.smelting.number_tint),
+		order = "i[liquid-molten-iron]-cb",
 	},
 	-- Molten Iron from Cobalt and Nickel
 	{
 		type = "recipe",
 		name = "molten-coni-iron-alloy-mixing",
 		category = "molten-alloy-mixing-3",
-		subgroup = "docteur-iron-alloy-mixing",
+		subgroup = "angels-iron-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -63,15 +63,15 @@ data:extend(
 				icon = "__angelssmelting__/graphics/icons/molten-iron.png",
 				icon_size = 32,
 			},
-		}, 3, angelsmods.smelting.number_tint),
-		order = "ac",
+		}, 4, angelsmods.smelting.number_tint),
+		order = "i[liquid-molten-iron]-db",
 	},
 	-- Molten Iron from Chrome and Nickel
 	{
 		type = "recipe",
 		name = "molten-crni-iron-alloy-mixing",
 		category = "molten-alloy-mixing-4",
-		subgroup = "docteur-iron-alloy-mixing",
+		subgroup = "angels-iron-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -85,8 +85,8 @@ data:extend(
 				icon = "__angelssmelting__/graphics/icons/molten-iron.png",
 				icon_size = 32,
 			},
-		}, 4, angelsmods.smelting.number_tint),
-		order = "ad",
+		}, 5, angelsmods.smelting.number_tint),
+		order = "i[liquid-molten-iron]-eb",
 	},
 }
 )

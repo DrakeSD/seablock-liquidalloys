@@ -1,3 +1,3 @@
-A fork of the Remelting mod made by Aragas and Marsonge that, perhaps ironically, no longer contains remelting. It's now only for being able to alloy metals from their molten form, tailored specifically for Seablock.
+A fork of the Remelting mod made by Aragas and Marsonge that, perhaps ironically, no longer contains remelting. It's now only for being able to alloy metals from their molten form, and in support of this, turns of ingot melting for metals that don't have plates enabled.
    
 All images used are used as placeholders and belong to [Angel's Smelting](https://mods.factorio.com/mod/angelssmelting) and [ShinyAngelGFX](https://mods.factorio.com/mod/ShinyAngelGFX) mods. The license is [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).

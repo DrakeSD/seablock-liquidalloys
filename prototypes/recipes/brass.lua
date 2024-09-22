@@ -7,7 +7,7 @@ data:extend(
 		type = "recipe",
 		name = "molten-brass-alloy-mixing-1",
 		category = "molten-alloy-mixing-2",
-		subgroup = "aragas-brass-alloy-mixing",
+		subgroup = "angels-alloys-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -21,14 +21,14 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 1, angelsmods.smelting.number_tint),
-		order = "aa",
+		order = "b[brass]-a[liquid-molten-brass]-ab",
 	},
 	-- Molten Brass from Tin
 	{
 		type = "recipe",
 		name = "molten-brass-alloy-mixing-2",
 		category = "molten-alloy-mixing-3",
-		subgroup = "aragas-brass-alloy-mixing",
+		subgroup = "angels-alloys-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -43,14 +43,14 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 2, angelsmods.smelting.number_tint),
-		order = "ab",
+		order = "b[brass]-a[liquid-molten-brass]-bb",
 	},
 	-- Molten Brass from Lead
 	{
 		type = "recipe",
 		name = "molten-brass-alloy-mixing-3",
 		category = "molten-alloy-mixing-4",
-		subgroup = "aragas-brass-alloy-mixing",
+		subgroup = "angels-alloys-casting",
 		enabled = "false",
 		energy_required = 4,
 		ingredients ={
@@ -65,7 +65,7 @@ data:extend(
 				icon_size = 32,
 			},
 		}, 3, angelsmods.smelting.number_tint),
-		order = "ac",
+		order = "b[brass]-a[liquid-molten-brass]-cb",
 	},
 }
 )

@@ -1,22 +1,12 @@
 local ov_functions = {}
 
-ov_functions.disable_technology = function (technology) -- disable technology (may be a table containing a list of technologies)
-	if type(technology) == "table" then
-		for tk, tech in pairs(technology) do
-			data.raw["technology"][tech].enabled = false
-		end
+ov_functions.unhide_recipe = function(recipe) -- unhides recipe (may be a table containing a list of recipes)
+	if type(recipe) == "table" then
+	  for _, rec in pairs(recipe) do
+		data.raw["recipe"][rec].hidden = false
+	  end
 	else
-		data.raw["technology"][technology].enabled = false
-	end
-end
-
-ov_functions.enable_technology = function (technology) -- enable technology (may be a table containing a list of technologies)
-	if type(technology) == "table" then
-		for tk, tech in pairs(technology) do
-			data.raw["technology"][tech].enabled = true
-		end
-	else
-		data.raw["technology"][technology].enabled = true
+	  data.raw["recipe"][recipe].hidden = false
 	end
 end
 

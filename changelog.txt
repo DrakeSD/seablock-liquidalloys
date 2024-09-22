@@ -1,15 +1,22 @@
+Version: 0.2.0
+Date: 09.22.2024
+  Features:
+    - Big rewrite to improve the control logic for adding molten forms of metals without plates enabled
+    - Extended this logic to all the Angel's metals, not just the ones needed for Seablock
+    - Because of this, removed the Seablock dependency
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 09.19.2024
   Features:
-    - Attached the mixer recipies directly to Angel's metallurgy techs for further streamlining
+    - Attached the mixer recipes directly to Angel's metallurgy techs for further streamlining
 ---------------------------------------------------------------------------------------------------
 Fork Version: 0.1.0
 Date: 09.19.2024
   Features:
     - Added logic to include molten metal recipes if they are missing.
-    - Added a bunch of missing alloy recipies
-    - Tiered the recipies to you need higher tier mixers for higher tier recipies
-    - Attached all alloy recipies to appropriate techs
+    - Added a bunch of missing alloy recipes
+    - Tiered the recipes to you need higher tier mixers for higher tier recipes
+    - Attached all alloy recipes to appropriate techs
     - Moved the fluid inputs/outputs to match model
     - Removed Remelting
 ---------------------------------------------------------------------------------------------------
