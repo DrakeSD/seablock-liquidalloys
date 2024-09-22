@@ -54,7 +54,7 @@ end
 --Adds Molten Chrome if needed
 if not t.smelting_products["chrome"].plate then
 	if t.smelting_products["chrome"].ingot then
-		if t..smelting_products["iron"].plate or t.smelting_products["steel"].plate then
+		if t.smelting_products["iron"].plate or t.smelting_products["steel"].plate then
 			angelsmods.functions.remove_flag("liquid-molten-chrome", "hidden")
 			drakesdmods.functions.OV.unhide_recipe("molten-chrome-smelting")
 			angelsmods.functions.OV.add_unlock("angels-chrome-smelting-1", "molten-chrome-smelting")
